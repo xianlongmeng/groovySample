@@ -1,0 +1,2 @@
+# groovySample
+Groovy script sample
