@@ -1,3 +1,5 @@
+package aa
+
 class MyScript1  extends Script{
 
     MyScript1() {

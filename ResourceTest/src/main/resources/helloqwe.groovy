@@ -1,6 +1,8 @@
+package aaa
+
 import org.codehaus.groovy.control.CompilerConfiguration
 
-class MyScript2 extends Script {
+class MyScript21 extends Script {
     String name
 
     String greet() {

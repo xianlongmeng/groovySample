@@ -1,3 +1,5 @@
+package aaa
+
 import org.codehaus.groovy.control.CompilerConfiguration
 
 class MyScript2 extends Script {
