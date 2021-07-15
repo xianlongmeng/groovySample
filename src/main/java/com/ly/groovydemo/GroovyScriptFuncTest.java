@@ -45,6 +45,15 @@ public class GroovyScriptFuncTest {
         System.out.println(bb);
         System.out.println(cc);
         System.out.println(dd);
+
+
+        Script script5 = groovyShell.parse("true");
+        Object ee = script5.run();
+        System.out.println(ee);
+
+        GroovyCodeSource codeSource =  new GroovyCodeSource("true", "sn", GroovyShell.DEFAULT_CODE_BASE);
+        Script script6 = groovyShell.parse(codeSource);
+        System.out.println(script6.run());
     }
 
     public static class Sum extends Closure<String> {
